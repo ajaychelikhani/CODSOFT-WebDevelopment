@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #202020;
+    font-family: Arial, sans-serif;
+}
+.calculator {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #404040;
+    color: white;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #303030;
+    color: white;
+    border: none;
+}
